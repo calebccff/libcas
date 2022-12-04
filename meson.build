@@ -1,9 +1,8 @@
-project('cas', 'c', 'cpp')
+project('cas', 'c', 'cpp', version: '0.0.1')
 cc = meson.get_compiler('c')
 fs = import('fs')
 
 cas_include = [
-  include_directories('/usr/include'),
   'cas',
 ]
 
@@ -36,12 +35,12 @@ cas_static = static_library('cas', cas_src,
 
 install_headers(cas_headers, subdir: 'cas')
 
-cas_shared_dep = declare_dependency(
-  include_directories: cas_include,
-  link_with: cas_shared,
-)
+# cas_shared_dep = declare_dependency(
+#   include_directories: cas_include,
+#   link_with: cas_shared,
+# )
 
-cas_static_dep = declare_dependency(
+libcas_dep = declare_dependency(
   include_directories: cas_include,
   link_with: cas_static,
 )
