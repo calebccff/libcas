@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/cas/git/kcutils/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+NSEC_PER_SEC	timespec.c	/^#define NSEC_PER_SEC /;"	d	file:
+TEST_BINOP	timespec.c	/^#define TEST_BINOP(/;"	d	file:
+TEST_FROM_DOUBLE	timespec.c	/^#define TEST_FROM_DOUBLE(/;"	d	file:
+TEST_FROM_MS	timespec.c	/^#define TEST_FROM_MS(/;"	d	file:
+TEST_FROM_TIMEVAL	timespec.c	/^#define TEST_FROM_TIMEVAL(/;"	d	file:
+TEST_NORMALISE	timespec.c	/^#define TEST_NORMALISE(/;"	d	file:
+TEST_TEST_FUNC	timespec.c	/^#define TEST_TEST_FUNC(/;"	d	file:
+TEST_TO_DOUBLE	timespec.c	/^#define TEST_TO_DOUBLE(/;"	d	file:
+TEST_TO_MS	timespec.c	/^#define TEST_TO_MS(/;"	d	file:
+TEST_TO_TIMEVAL	timespec.c	/^#define TEST_TO_TIMEVAL(/;"	d	file:
+TEST_TRINOP	timespec.c	/^#define TEST_TRINOP(/;"	d	file:
+main	builddir/meson-private/sanitycheckc.c	/^int main(void) { int class=0; return class; }$/;"	f	typeref:typename:int
+main	builddir/meson-private/sanitycheckcpp.cc	/^class breakCCompiler;int main(void) { return 0; }$/;"	f	typeref:typename:int
+main	timespec.c	/^int main()$/;"	f	typeref:typename:int
+timespec_add	timespec.c	/^struct timespec timespec_add(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:struct:timespec
+timespec_clamp	timespec.c	/^struct timespec timespec_clamp(struct timespec ts, struct timespec min, struct timespec max) {$/;"	f	typeref:struct:timespec
+timespec_cmp	timespec.c	/^int timespec_cmp(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:typename:int
+timespec_eq	timespec.c	/^bool timespec_eq(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:typename:bool
+timespec_from_double	timespec.c	/^struct timespec timespec_from_double(double s)$/;"	f	typeref:struct:timespec
+timespec_from_ms	timespec.c	/^struct timespec timespec_from_ms(long milliseconds)$/;"	f	typeref:struct:timespec
+timespec_from_timeval	timespec.c	/^struct timespec timespec_from_timeval(struct timeval tv)$/;"	f	typeref:struct:timespec
+timespec_ge	timespec.c	/^bool timespec_ge(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:typename:bool
+timespec_gt	timespec.c	/^bool timespec_gt(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:typename:bool
+timespec_le	timespec.c	/^bool timespec_le(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:typename:bool
+timespec_lt	timespec.c	/^bool timespec_lt(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:typename:bool
+timespec_max	timespec.c	/^struct timespec timespec_max(struct timespec ts1, struct timespec ts2) {$/;"	f	typeref:struct:timespec
+timespec_min	timespec.c	/^struct timespec timespec_min(struct timespec ts1, struct timespec ts2) {$/;"	f	typeref:struct:timespec
+timespec_mod	timespec.c	/^struct timespec timespec_mod(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:struct:timespec
+timespec_normalise	timespec.c	/^struct timespec timespec_normalise(struct timespec ts)$/;"	f	typeref:struct:timespec
+timespec_now	timespec.c	/^struct timespec timespec_now()$/;"	f	typeref:struct:timespec
+timespec_sub	timespec.c	/^struct timespec timespec_sub(struct timespec ts1, struct timespec ts2)$/;"	f	typeref:struct:timespec
+timespec_to_double	timespec.c	/^double timespec_to_double(struct timespec ts)$/;"	f	typeref:typename:double
+timespec_to_ms	timespec.c	/^long timespec_to_ms(struct timespec ts)$/;"	f	typeref:typename:long
+timespec_to_timeval	timespec.c	/^struct timeval timespec_to_timeval(struct timespec ts)$/;"	f	typeref:struct:timeval
